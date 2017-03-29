@@ -1,0 +1,11 @@
+[22-Mar-2017 18:30:25 America/Chicago] PHP Parse error:  syntax error, unexpected 'j' (T_STRING) in /home2/lmarti04/public_html/baker/testing/blog/php/submit-new-post.php on line 6
+[22-Mar-2017 18:31:15 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home2/lmarti04/public_html/baker/testing/blog/php/submit-new-post.php on line 8
+[22-Mar-2017 18:32:50 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home2/lmarti04/public_html/baker/testing/blog/php/submit-new-post.php on line 20
+[22-Mar-2017 18:34:45 America/Chicago] PHP Parse error:  syntax error, unexpected 'mysql_query' (T_STRING) in /home2/lmarti04/public_html/baker/testing/blog/php/submit-new-post.php on line 20
+[22-Mar-2017 18:35:11 America/Chicago] PHP Parse error:  syntax error, unexpected '@' in /home2/lmarti04/public_html/baker/testing/blog/php/submit-new-post.php on line 20
+[22-Mar-2017 18:39:09 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home2/lmarti04/public_html/baker/testing/blog/php/submit-new-post.php on line 20
+[22-Mar-2017 18:39:43 America/Chicago] PHP Warning:  include(includes/connect.php): failed to open stream: No such file or directory in /home2/lmarti04/public_html/baker/testing/blog/php/submit-new-post.php on line 2
+[22-Mar-2017 18:39:43 America/Chicago] PHP Warning:  include(includes/connect.php): failed to open stream: No such file or directory in /home2/lmarti04/public_html/baker/testing/blog/php/submit-new-post.php on line 2
+[22-Mar-2017 18:39:43 America/Chicago] PHP Warning:  include(): Failed opening 'includes/connect.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home2/lmarti04/public_html/baker/testing/blog/php/submit-new-post.php on line 2
+[22-Mar-2017 18:39:43 America/Chicago] PHP Warning:  mysql_error() expects parameter 1 to be resource, null given in /home2/lmarti04/public_html/baker/testing/blog/php/submit-new-post.php on line 24
+[22-Mar-2017 18:39:43 America/Chicago] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home2/lmarti04/public_html/baker/testing/blog/php/submit-new-post.php on line 28

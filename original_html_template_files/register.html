@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>Web Development Blog</title>
+		<link rel="stylesheet" href="css/main.css">
+		<script type="text/javascript" src="js/nav.js"></script>
+	</head>
+
+	<body>
+		<div id="top" class="section group"> <!-- TOP SECTION -->
+			<div id="nav-wrapper" class="section group">
+				<div class="container">
+				<!-- Main Navigation -->
+						<nav class="span12">
+							<ul id="main-navigation" class="nav">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="#">About</a></li>
+								<li><a href="#">Categories</a></li>
+								<li><a href="contact.html">Contact Us</a></li>
+								<li class="icon">
+									<a href="javascript:void(0);" onclick="navFunction()">&#9776;</a>
+								</li>
+								<div id="login-menu">
+									<li><a href="logout.html">Login</a></li>
+									<li id="link_sep">|</li>
+									<li><a href="register.html"> Register</a></li>
+								</div>
+							</ul>
+						</nav>
+				<!-- / Main Navigation -->
+				</div>
+			</div><!-- / nav-wrapper -->
+
+			<div id="header-wrapper" class="section group">
+				<!-- Header -->
+				<header class="container">
+					<h1 class="title">Web Development Blog</h1>
+				</header>
+				<!-- / Header -->
+			</div><!-- / Header Wrapper -->
+		</div><!-- / TOP SECTION -->
+
+		<div id="content-wrapper" class="section group">
+			<div class="container">
+				<!-- Page Content Area -->
+				<div id="content" class="col span8">
+					<h3 class="subtitle">Register</h3>
+
+					<!-- start JV code (3/1/2017) -->
+				    <form id="registrationForm" action="#" method="post">
+				        <p><label><b>First Name</b></label><br>
+				        <input type="text" placeholder="First Name" name="firstName" required></p><br>
+
+				        <p><label><b>Last Name</b></label><br>
+				        <input type="text" placeholder="Last Name" name="lastName" required></p><br>
+
+				        <p><label><b>E-mail</b></label><br>
+				        <input type="email" placeholder="Enter E-mail" name="email" required></p><br>
+
+				        <p><label><b>ZIP Code</b></label><br>
+				        <input type="text" placeholder="Enter ZIP Code" name="zip" required></p><br>
+
+				        <h3 class="subtitle">Select an ID and password</h3>
+					    <p><label><b>User ID</b></label><br>
+					    <input type="text" placeholder="Enter User ID" name="userID" required></p><br>
+
+				        <p><label><b>Password</b></label><br>
+				        <input type="password" placeholder="Enter Password" name="password1" required></p><br>
+
+				        <p><label><b>Retype Password</b></label><br>
+				        <input type="password" placeholder="Enter Password Again" name="password2" required></p><br>
+
+				        <button type="submit" onclick="alert('Functionality not implemented at this time.');">Register</button>
+					</form>
+      				<!-- end JV code (3/1/2017) -->
+				</div>
+				<!-- / Page Content Area -->
+
+				<!-- Sidebar -->
+				<aside class="col span4">
+					<div id="search-field" class="col span12 widget">
+						<form action="" class="search_site">
+							<input type="search" name="search">
+							<input type="submit" value="Search">
+						</form>
+					</div>
+					<div id="recent-posts" class="col span12 widget">
+						<h4>Recent Posts</h4>
+						<ul class="secondary_nav">
+							<li><a href="#">A Post Title</a></li>
+							<li><a href="#">A Post With an Image</a></li>
+							<li><a href="#">Another Post Title</a></li>
+						</ul>
+					</div>
+					<div id="categories" class="col span12 widget">
+						<h4>Categories</h4>
+						<ul class="secondary_nav">
+							<li><a href="#">Category 1</a></li>
+							<li><a href="#">Category 2</a></li>
+							<li><a href="#">Category 3</a></li>
+							<li><a href="#">Category 4</a></li>
+						</ul>
+					</div>
+					<div id="about-widget" class="col span12 widget">
+						<h4>About</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi sapiente accusantium debitis deserunt eos, tempora architecto illum distinctio hic est voluptas molestias deleniti consectetur</p>
+					</div>
+
+				</aside>
+				<!-- / Sidebar -->
+			</div>
+		</div><!-- / Content Wrapper -->
+
+		<div id="footer-wrapper" class="section group">
+			<footer class="container">
+				<p>Created by the WEB231 Group 1 Development Team</p>
+			</footer>
+		</div>
+
+
+	</body>
+
+</html>
