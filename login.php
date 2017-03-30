@@ -26,6 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 					$_SESSION['fname'] = $data['user_fname'];
 					$_SESSION['lname'] = $data['user_lname'];
 					$_SESSION['email'] = $data['user_email'];
+                                        $_SESSION['user_id'] = $data['user_id'];
 					$_SESSION['time'] = time();
 					if ($data['user_admin']) {
 						setcookie('isadmin', TRUE);
@@ -68,8 +69,9 @@ include('templates/header.php');
 			if (!is_loggedin()) {
 				include('includes/login-form.php');
 			} else {
-				print '<p>You are already logged in.</p>';
+                            header("Location: user_home.php");
 			}
+
 		 ?>
 		 <!-- / Lindsey Martin -->
 
